@@ -1,0 +1,127 @@
+body {
+
+    background: url(../images/back.jpg) repeat;
+
+	margin-left: 0px;
+
+	margin-top: 0px;
+
+	margin-right: 0px;
+
+	margin-bottom: 0px;
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 14px; 
+
+}
+
+
+
+#wrap {
+
+background: #FFF;
+
+width: 800px; height: 100%; padding: 0px;
+
+filter: progid:DXImageTransform.Microsoft.Shadow (color="black", direction=120, strength=6);
+
+margin-left: auto; margin-right: auto;
+
+text-align: left;
+
+}
+
+
+
+
+
+	a {
+
+	text-decoration:none;
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-weight: bold;
+
+	}
+
+	
+
+	a:link {
+
+	color: #000000;
+
+	text-decoration: none;
+
+}
+
+	
+
+
+
+a:visited {
+
+	color: #0033FF;
+
+	text-decoration: none;
+
+}
+
+a:hover {
+
+	text-decoration: underline;
+
+	color: #000099;
+
+}
+
+
+
+a:active {
+
+	color: #0033FF;
+
+	text-decoration: none;
+
+	font-weight:bold;
+
+}
+
+
+
+.heading1 {
+
+font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 14px; 
+
+	font-weight: bold;
+
+	}
+
+
+
+
+
+.noticias{
+
+	background-image:url(..images/noticias.jpg);
+
+	background-repeat:no-repeat;
+
+}
+
+.news{
+
+	background-image:url(../english/images/noticias.jpg);
+
+	background-repeat:no-repeat;
+
+}
+
+
+
+.style11 {font-size: 11px;
+
+font-weight: bold;}

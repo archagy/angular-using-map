@@ -1,0 +1,23 @@
+{
+  "name": "kopar",
+  "version": "1.0.0",
+  "description": "### An AngularJS Directive that allows image maps to be used in a responsive design by recalculating the area coordinates to match the actual image size on load and window.resize",
+  "main": "angular-rwdImageMaps.js",
+  "dependencies": {
+    "angular-route": "^1.5.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cowglow/angular-image-maps-rwd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cowglow/angular-image-maps-rwd/issues"
+  },
+  "homepage": "https://github.com/cowglow/angular-image-maps-rwd#readme"
+}

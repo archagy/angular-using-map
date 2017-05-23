@@ -1,0 +1,90 @@
+<style>
+    .header{
+        background-color: #207dbe;
+        margin-bottom: 20px;
+    }
+
+    .white{
+        color:white;
+    }
+
+    #container{width:100%;}
+#left{float:left;width:100px;}
+#right{float:right;width:100px;}
+#center{margin:0 auto;width:100px;}
+
+table, td, th {    
+    border: 0px solid #ddd;
+}
+
+.right{
+     border-radius: 25px;
+    background: #207dbe;
+    color: white;
+
+}
+.left{
+    text-align: left;
+}
+table {
+    border-collapse: collapse;
+    margin-left: 30%;
+}
+
+th, td {
+    padding: 10px;
+}
+</style>
+
+<div class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-head header" ng-show="title">
+                <button type="button" class="close" ng-click="$hide()">&times;</button>
+            </div>
+            <div class="modal-body header row" >
+
+            <div id="container">
+  <div id="left">
+      <span class="glyphicon glyphicon-remove white" ng-click="$hide()"></span>
+  </div>
+  <div id="right">
+      <span class="glyphicon glyphicon-chevron-right white"></span>
+  </div>
+  <div id="center">
+      <center>Nombre Item</center>
+  </div>
+</div>
+    </div>
+        <div class="thumbnail">
+            <img src="../img/Valvula.png"  alt="">
+        </div>
+        
+        
+        <table>
+  <tr>
+    
+  </tr>
+  <tr>
+    <td class="right">Peter</td>
+    <td>Griffin</td>
+  </tr>
+  <tr>
+    <td class="right">Lois</td>
+    <td>Griffin</td>
+  </tr>
+  <tr>
+    <td class="right">Joe</td>
+    <td>Swanson</td>
+  </tr>
+  <tr>
+    <td class="right">Cleveland</td>
+    <td>Brown</td>
+  </tr>
+</table>
+
+             
+        </div>
+        </div>
+    </div>
+</div>
